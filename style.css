@@ -415,6 +415,13 @@ section{
   color: #7c8086;
   font-size: 10px;
 }
+
+
+
+
+//button///
+
+
 .card-form .form-body .row .form-block .button {
   
   text-align:justify;
@@ -494,16 +501,16 @@ section{
 	}
 	#header .nav-list ul {
 		position: initial;
-		display: block;
+		background-color: transparent;
+    display: block;
 		height: auto;
 		width: fit-content;
-		background-color: transparent;
 	}
 	#header .nav-list ul li {
 		display: inline-block;
 	}
 	#header .nav-list ul li a {
-		font-size: 1.8rem;
+		font-size: 1.5rem;
 	}
 	#header .nav-list ul a:after {
 		display: none;
