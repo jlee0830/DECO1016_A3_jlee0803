@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
+  <title>APC website re-design</title>
+</head>
+<body>
+  <!-- Header section -->
+  <section id="header">
+    <div class="header container">
+      <div class="nav-bar">
+        <div class="logo">
+          <a href="#landing"><img src="LOGO.png"></a>
+        </div>
+        <div class="nav-list">
+          <ul>
+            <li><a href="#landing" data-after="Home">Home</a></li>
+            <li><a href="#about" data-after="about">About us</a></li>
+            <li><a href="#projects" data-after="Projects">Projects</a></li>
+            <li><a href="#about" data-after="About">Contact</a></li>
+            <li class="donationli"><a href="#donate" data-after="donate">Donate</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Header -->
+
+
+  <!-- Landing Section  -->
+  <section id="landing">
+    <div class="landingcontainer">
+      <div>
+       <h1>“The platypus is one of the world’s most remarkable animals”</h1>
+        <a href="#projects" type="button" class="btn">Learn more</a>
+      </div>
+    </div>
+  </section>
+  <!-- End landing Section  -->
+
+  <!-- About Section -->
+  <section id="about">
+    <div class="aboutcontainer">
+      <h1 class="section-title">Abo<span>u</span>t</h1>
+      <p><strong>APC(Australian Platypus Conservancy)is a non-profit environmental organization located in Campbells Creek, VIC since 1994. The organisation aimed to conserve platypus and other extinctive wildlife animals in Australia as well as providing their research findings to our community.</strong></p>
+    </div>
+    <div class="rolecontainer">
+      <div class="role">
+        <img src="whatwedo.png">
+        <figcaption class="caption">What we do?<p>Except conserving distinctive Australian species, APC is also dedicatedly working on the protection of environment, linking its scientific findings to our community and try to increase the population of local platypus and water-rat.</p></figcaption>
+      </div>
+      <div class="role">
+        <img src="ourgoal.png">
+        <figcaption class="caption">Our goal<p>The Conservancy's foremost aim is to link research findings with community actions to protect and strengthen platypus and Australian water-rat (or rakali) populations.</p></figcaption>
+      </div>
+      <div class="role">
+        <img src="achievement.png">
+        <figcaption class="caption">Acheivement<p>Increase the population of Australian platypus and also developed a system for habitat conservation in the plast 25 years.</p></figcaption>
+      </div>
+    </div>
+  </section>
+  <!-- End About Section -->
+
+  <!-- Projects Section -->
+  <section id="projects">
+    <div class="projects container">
+      <div class="projects-header">
+        <h1 class="section-title">Recent <span>Projects</span></h1>
+      </div>
+    <div class="all-projects">
+      <div class="projectinfo">
+        <img src="project1.jpg" class="anim" alt="projectimg" style="width:649px; height:350px;display: inline-block; vertical-align: middle;">
+        <div class="projectdescription">
+              <h2 class="anim">Releases</h2>
+              <p style="color:white;">Click here to see our monthly new releases!</p>
+              <button class="btn">View more</button>
+        </div>
+      </div>
+      <div class="projectinfo">
+        <img src="project2.jpg" class="anim" alt="projectimg" style="width:649px; height:350px;display: inline-block; vertical-align: middle;">
+        <div class="projectdescription">
+              <h2 class="anim">Research</h2>
+              <p style="color:white;">We conduct research and conservation activities</p>
+              <button class="btn">View more</button>
+        </div>
+      </div>
+      <div class="projectinfo">
+        <img src="project3.jpeg" class="anim" alt="projectimg" style="width:649px; height:350px;display: inline-block; vertical-align: middle;">
+        <div class="projectdescription">
+              <h2 class="anim">Rakali</h2>
+              <p style="color:white;">Rakali- also known as Australian water-rat, ...</p>
+              <button class="btn">View more</button>
+      </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Projects Section -->
+
+  <!-- Donate Section -->
+  <section id="donate">
+    <h1 class="section-title" style="margin-bottom:100px;">Make A <span>Donation</span>
+    <div class="platyimage" onclick="myFunction()">
+      <img src="platypus-head.png">
+      <p class="popuptext" id="myPopup">Your donation will contribure to platypus's food, habitat conservation and scientific research. Click <a href="#">here</a> to track your donation outcome!</p>
+    </div>
+    <div class="card-form">
+    <form class="deposit">
+      <div class="form-indicator"></div>
+      <div class="form-body">
+        <div class="row">
+          <div class="form-block">
+            <div class="button" id="1" >$10</div>
+            <div class="button" id="2" >$15</div>
+            <div class="button" id="3" >$25</div>
+            <div class="button" id="4" >$40</div>
+            <div class="button" id="5" >$80</div>
+            <div class="button" id="6" >$100</div>
+            <div class="button" id="7" >$250</div>
+          </div>
+        </div>
+        <div class="row">
+          <input type="text" id="cc" maxlength="16" placeholder="Card number">
+        </div>
+        <div class="row">
+          <input type="text" id="name" placeholder="Name on card">
+          <input type="text" id ="date"  placeholder="MM/YY">
+          <input type="text" id ="cvc" placeholder="CVC">
+        </div>
+      </div>
+      <div class="form-footer">
+        <div class="btn"><button>Send</button>
+      </div>
+    </form>
+</div>
+  </section>
+  <!-- End donation Section -->
+
+  <!-- Start Contact Section -->
+  <section id="contact">
+    <h1 class="section-title" style="color:grey;"><span>Contact</span> us</h1>
+  </section>
+  <!-- End Contact Section -->
+
+  <!-- Start Footer -->
+  <section id="footer">
+  </section>
+  <!-- End Footer -->
+  <script src="./app.js"></script>
+  <script type="text/javascript">
+    window.sr = ScrollReveal();
+    sr.reveal('.anim');
+ </script>
+ <script>
+// pop up when users click
+  function myFunction() {
+  var popup = document.getElementById("myPopup");
+  popup.classList.toggle("show");
+}
+</script>
+</body>
+</html>
